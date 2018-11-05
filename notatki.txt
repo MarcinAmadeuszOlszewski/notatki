@@ -8,5 +8,6 @@ cd \d:\\Java-src\\git
 git status
 git add nazwaPliku
 
-git init localToRemoteRepo
+git init localToRemoteRepo (tworzy nowy projekt o takiej nazwie)
 
+git init (jesli juz mamy projekt)
