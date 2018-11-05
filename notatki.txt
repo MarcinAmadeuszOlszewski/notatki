@@ -11,3 +11,10 @@ git add nazwaPliku
 git init localToRemoteRepo (tworzy nowy projekt o takiej nazwie)
 
 git init (jesli juz mamy projekt)
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/MarcinAmadeuszOlszewski/notatki.git
+git push -u origin master
