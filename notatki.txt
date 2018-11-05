@@ -1,0 +1,12 @@
+git config --global user.email "olszewski_marcin@wp.pl"
+ git config --global user.name "MarcinAmadeuszOlszewski"
+git config --global --list
+
+
+cd \d:\\Java-src\\git
+
+git status
+git add nazwaPliku
+
+git init localToRemoteRepo
+
