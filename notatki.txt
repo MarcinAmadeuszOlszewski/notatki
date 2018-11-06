@@ -50,3 +50,9 @@ git push origin :nazwa-tagu		//z remote
 git checkout -b "branch name" tag-name			//checkout do taga
 git tag nazwa-tagu referenceOfCommit			//tag do komita
 
+
+
+//inne
+git rm -f README.md			//kasuje plik dodany add (z dysku tez)
+git rm --cached  tmp.tmp	//usowa z add
+
