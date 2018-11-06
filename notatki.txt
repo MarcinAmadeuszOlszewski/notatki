@@ -28,4 +28,23 @@ git checkout "nazwa"
 git checkout "nazwa"		//przelaczyc sie do galezi DO ktorej chcemy zmergowac
 git merge "nazwa"			//merdzuje do aktualnej galezi galaz "nazwa"
 //delete
-git branch -d "nazwa"
+git branch -d "nazwa"					//lokalnie
+git push origin --delete "nazwa"		//w repo
+
+tagi
+git checkout "nazwa"		//przelaczyc sie do galezi ktora chcemyotagowac
+git tag nazwa-tagu			//tworzy
+git tag -a nazwa-tagu -m "tag z opisem"
+git tag 					//wyswietla tagi
+git tag -l nazw*			//z wildcardami
+git show nazwa-tagu
+git push origin nazwa-tagu	//do remote
+git push origin --tags
+git push --tags
+git tag -d nazwa-tagu		//usuwa lokalnie
+git push origin -d nazwa-tagu	//z remote
+git push origin :nazwa-tagu		//z remote
+
+git checkout -b "branch name" tag-name			//checkout do taga
+git tag nazwa-tagu referenceOfCommit			//tag do komita
+
