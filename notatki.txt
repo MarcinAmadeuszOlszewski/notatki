@@ -18,3 +18,14 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/MarcinAmadeuszOlszewski/notatki.git
 git push -u origin master
+
+branches
+//tworzy galaz
+git branch "nazwa"		
+//przelacza sie	
+git checkout "nazwa"		
+//merge
+git checkout "nazwa"		//przelaczyc sie do galezi DO ktorej chcemy zmergowac
+git merge "nazwa"			//merdzuje do aktualnej galezi galaz "nazwa"
+//delete
+git branch -d "nazwa"
