@@ -1,6 +1,8 @@
 git config --global user.email "olszewski_marcin@wp.pl"
- git config --global user.name "MarcinAmadeuszOlszewski"
+git config --global user.name "MarcinAmadeuszOlszewski"
 git config --global --list
+
+git log
 
 
 cd \d:\\Java-src\\git
