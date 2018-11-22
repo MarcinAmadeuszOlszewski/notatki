@@ -64,3 +64,7 @@ git reset --hard "commit id"		// cofa stan do wybranego commitu
 git rm -f README.md			//kasuje plik dodany add (z dysku tez)
 git rm --cached  tmp.tmp	//usowa z add
 
+
+ignorowanie plikow
+touch .gitignore			// w środku pliki do pominiecia
+git rm -r --cached . 		//usowa wszystkie skachowane
