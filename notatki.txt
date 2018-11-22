@@ -1,9 +1,12 @@
 git config --global user.email "olszewski_marcin@wp.pl"
 git config --global user.name "MarcinAmadeuszOlszewski"
 git config --global --list
+git config --global credential.helper wincred
+
+
 
 git log
-
+git log --oneline
 
 cd \d:\\Java-src\\git
 
@@ -19,6 +22,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/MarcinAmadeuszOlszewski/notatki.git
+git remote -v					//lista zdefiniowanych limkow do remote
 git push -u origin master
 
 branches
@@ -50,6 +54,10 @@ git push origin :nazwa-tagu		//z remote
 git checkout -b "branch name" tag-name			//checkout do taga
 git tag nazwa-tagu referenceOfCommit			//tag do komita
 
+git checkout "commit id" 		// commit id z git log
+
+git revert "commit id"			// cofa ostatnią/jedną zmaianę (commit id = commit head)
+git reset --hard "commit id"		// cofa stan do wybranego commitu
 
 
 //inne
