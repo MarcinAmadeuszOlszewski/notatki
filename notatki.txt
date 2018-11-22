@@ -28,14 +28,21 @@ git push -u origin master
 branches
 //tworzy galaz
 git branch "nazwa"		
+git checkout -b "nazwa"		// tworzy galaz i na nia przelacza sie
 //przelacza sie	
 git checkout "nazwa"		
+
+git branch -a 				//lista
 //merge
 git checkout "nazwa"		//przelaczyc sie do galezi DO ktorej chcemy zmergowac
 git merge "nazwa"			//merdzuje do aktualnej galezi galaz "nazwa"
 //delete
 git branch -d "nazwa"					//lokalnie
 git push origin --delete "nazwa"		//w repo
+
+
+
+
 
 tagi
 git checkout "nazwa"		//przelaczyc sie do galezi ktora chcemyotagowac
@@ -68,3 +75,5 @@ git rm --cached  tmp.tmp	//usowa z add
 ignorowanie plikow
 touch .gitignore			// w środku pliki do pominiecia
 git rm -r --cached . 		//usowa wszystkie skachowane
+
+
