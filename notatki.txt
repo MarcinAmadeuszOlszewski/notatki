@@ -17,13 +17,14 @@ git init localToRemoteRepo (tworzy nowy projekt o takiej nazwie)
 
 git init (jesli juz mamy projekt)
 
-
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/MarcinAmadeuszOlszewski/notatki.git
 git remote -v					//lista zdefiniowanych limkow do remote
 git push -u origin master
+
+
 
 branches
 //tworzy galaz
@@ -65,6 +66,7 @@ git checkout "commit id" 		// commit id z git log
 
 git revert "commit id"			// cofa ostatnią/jedną zmaianę (commit id = commit head)
 git reset --hard "commit id"		// cofa stan do wybranego commitu
+
 
 
 //inne
